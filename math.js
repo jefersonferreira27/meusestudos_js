@@ -13,3 +13,11 @@ console.log(arredondar);
 // Função Math para arredondar pra cima
 let arredondarParaCima = Math.ceil(6.87569);
 console.log(arredondarParaCima);
+
+// Gerar um número aletório de 10 a 20
+let numeroAleatorio = function() {
+  console.log(Math.random(10, 20));
+}
+
+// Chamada da função
+numeroAleatorio();
