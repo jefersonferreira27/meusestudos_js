@@ -42,8 +42,22 @@ let minuscula = frase.toLowerCase();
 
 console.log(minuscula)
 
+// Concatenar strings
+let text1 = "hello";
+let text2 = "world";
+
+let tex3 = text1.concat("", text2);
 
 
+// Remover espaços em branco
+let frase = "         História das tecnologias                  ";
+let fras2 = frase.trim();
+
+
+// Preenche uma string desde o inicio
+let text = "5";
+// Preenche a string com "7" até atingir o comprimento 10
+let text2 = text.padStart(10,"7")
 
 
 
