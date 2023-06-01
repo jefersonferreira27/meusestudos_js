@@ -48,4 +48,4 @@ console.log(arrays.sort())
 
 //reverse
 //Inverte os elementos da matriz
-console.log(arrays.reverse())
+console.log(arrays.reverse())   
