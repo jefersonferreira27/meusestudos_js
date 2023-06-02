@@ -46,3 +46,4 @@ Math.floor(Math.random()*100) // Retorna um número aleatório de 0 a 99
 function numberRandom(min, max){
     return Math.floor(Math.random() * (min - max) + max) //Retorna um número aleatório de (min) a (max)
 }
+
