@@ -5,6 +5,7 @@ let metros;
 let unidadeDeMedida;
 let resultado;
 
+// Inserção dos dados
 metros = parseFloat(prompt("Digite um valor em metros:"));
 unidadeDeMedida = prompt(`Escolha a unidade de medida para a conversão:
 - milímetro(mm)
@@ -15,6 +16,7 @@ unidadeDeMedida = prompt(`Escolha a unidade de medida para a conversão:
 - quilômetro(km)
 `)
 
+// Lógica e exibição da conversão
 switch (unidadeDeMedida) {
     case "mm":
         resultado = metros * 1000;
